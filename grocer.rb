@@ -11,6 +11,7 @@ def consolidate_cart(cart)
       
       cart.each do |item_name|
         # if item_name == 
+        binding.pry
       end
     end 
   end
