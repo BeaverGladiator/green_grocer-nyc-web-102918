@@ -16,6 +16,8 @@ def consolidate_cart(cart)
   # end
   
   groceries
+  
+  binding.pry
 end
 
 def apply_coupons(cart, coupons)
