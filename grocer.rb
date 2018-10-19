@@ -10,6 +10,21 @@ def consolidate_cart(cart)
       groceries[item][:count] = 0
       name = item
       binding.pry
+      
+      array.each do |hash|
+        if hash[:name] == name
+          original_hash[:count] += 1
+        end
+      end
+      
+      cart.each do |item_data|
+        binding.pry
+        if item == name
+          groceries[item][:count] += 1
+        end
+      end
+      
+      
     end 
   end
   
