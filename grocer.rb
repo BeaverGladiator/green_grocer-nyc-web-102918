@@ -8,7 +8,7 @@ def consolidate_cart(cart)
     item_data.each do |item, data|
       groceries[item] = data
       groceries[item][:count] = 0
-      
+      name = item
       binding.pry
     end 
   end
