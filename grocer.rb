@@ -9,10 +9,12 @@ def consolidate_cart(cart)
       groceries[item] = data
       groceries[item][:count] = 0
       
-      cart.each do |item_name|
-        # if item_name == 
-        binding.pry
-      end
+      binding.pry
+      
+      # cart.each do |item_name|
+      #   if item_name == 
+      #   binding.pry
+      # end
     end 
   end
   
