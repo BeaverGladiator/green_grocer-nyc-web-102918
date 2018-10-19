@@ -19,7 +19,7 @@ def consolidate_cart(cart)
       
       cart.each do |item_data|
         binding.pry
-        if item == name
+        if item_data == name
           groceries[item][:count] += 1
         end
       end
