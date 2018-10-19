@@ -7,8 +7,13 @@ def consolidate_cart(cart)
   cart.each do |item_data|
     item_data.each do |item, data|
       groceries[item] = data
+      groceries[item][:count] = 0
     end 
   end
+  
+  # cart.each do |item_data|
+  # groceries[item][:count] = 0
+  # end
   
   groceries
 end
