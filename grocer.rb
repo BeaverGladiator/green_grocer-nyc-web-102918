@@ -10,7 +10,7 @@ def consolidate_cart(cart)
     end 
   end
   
-  binding.pry
+  groceries
 end
 
 def apply_coupons(cart, coupons)
